@@ -1,0 +1,93 @@
+/* register.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+header #test1 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-left: 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #619cae;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+a:hover {
+  background-color: #333;
+}
+
+.container {
+  width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h1{
+    text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#registrationForm input[type="text"],
+#registrationForm input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#registrationForm button.bot1 {
+  padding: 10px 20px;
+  background-color: #619cae;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#registrationForm button.bot1:hover {
+  background-color: #333;
+}
