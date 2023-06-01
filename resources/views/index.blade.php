@@ -48,7 +48,8 @@
     
                 </div>
                     <li class="nav-item">
-                        <a class="nav-link text-white">Ваш город: Пермь</a>
+                        <a class="" style=" cursor: po
+inter;">Ваш город: Пермь</a>
                     </li>
                 </ul>
             </div>
